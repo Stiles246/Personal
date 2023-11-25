@@ -1,0 +1,49 @@
+.trustee-section {
+    background: var(--color-banner);
+    height: 100%;
+    position: relative;
+    padding: 80px 0px;
+}
+
+.trustee-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.digital img {
+    width: auto;
+    height: 42px;
+}
+
+.vortex img {
+    width: auto;
+    height: 22px;
+}
+
+.travel img {
+    width: auto;
+    height: 42px;
+}
+
+.fusion img {
+    width: auto;
+    height: 24px;
+}
+
+.mediafury img {
+    width: auto;
+    height: 28px;
+}
+
+@media screen and (min-width: 768px) {
+    .trustee-content {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        align-items: center;
+    }
+
+}
+

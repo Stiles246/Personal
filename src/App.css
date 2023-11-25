@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --color-banner: #28293E;
+    --color-bg: #FDF0E9;
+    --color-text-dark:#391400; 
+    --color-text-dark-accent:#EF6D58;
+    --color-text-dark-grey: rgba(57, 20, 0, 0.64); 
+    --color-text-light: #FFF; 
+    --color-text-accent: #EF4133; 
+    --color-text-light-grey: rgba(255, 255, 255, 0.64); 
+
+  
+    --container-width-lg: 82%;
+    --container-width-md: 90%;
+    --container-width-sm: 95%;
+  }
+  
+  body {
+    font-family: 'Epilogue', sans-serif;
+    color: var(--color-text-dark);
+    background: var(--color-bg);
+
+  }
+  
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .container {
+    width: var(--container-width-sm);
+    max-width: 1032px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .btn {
+    background-color: var(--color-text-dark-accent);
+    color: white;
+    display: inline-block;
+    padding: 14px 28px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 400ms ease;
+  }
+  
+  .btn:hover{
+    color: var(--color-text-dark);
+    background-color: var(--color-text-light);
+  }
+
+  .btn-secondary {
+      color: var(--color-text-dark);
+      background-color: var(--color-text-light);
+  }
+
+  .btn-secondary:hover {
+    color: var(--color-text-light);
+    background-color: var(--color-text-dark); 
+  }
+
+  .btn-outline {
+    color: var(--color-text-light);
+    border: 1px solid var(--color-text-light); 
+    background-color: transparent;
+  }
+
+  .avatar {
+    width: 80px;
+    height: 80px;
+  }
+  
+  h1 {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 80px; 
+    letter-spacing: -2px
+  }
+
+  h2 {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 64px; 
+    letter-spacing: -1px;
+  } 
+
+  h3 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px
+  }
+
+  h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px
+  }
+
+  h5 {
+    color: var(--color-text-dark-accent);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  
+  .text-big {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+  }

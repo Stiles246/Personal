@@ -1,0 +1,44 @@
+.banner-section {
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 80px 0;
+    background-color: #F9E5DA;
+}
+
+.banner-headline {
+    padding: 8px 0px 24px;
+}
+
+.sub-text {
+    padding: 36px 0px 40px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .banner-content {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        gap: 5%;
+    }
+    .banner-headline {
+        font-size: 24px;
+    }
+    .sub-banner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    } 
+    .banner-illus {
+        width: 300px;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    .banner-illus {
+        width: 100%;
+    }
+
+}
